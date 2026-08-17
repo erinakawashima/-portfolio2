@@ -1,0 +1,460 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<title>ErinaKawashima Works</title>
+	
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="works.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+	
+<script src="js/jquery-3.7.1.min.js"></script>
+<script>
+$(function() {
+	  // .nav-button をクリックした時の設定
+	  $(".nav-button").on("click",function() {
+			  // <body> にクラス名 [menu-open] を追加・削除
+			  $("body").toggleClass("menu-open");
+	  });
+
+	  // ナビゲーション (<nav>) 内をクリックした時の設定
+	  $(document).on('click', '.menu-open nav', function() {
+			  // ブラウザに .nav-button をクリックさせる
+			  $('.nav-button').trigger('click');
+	  });
+});
+</script>
+	
+</head>
+
+<body id="top" onLoad="MM_preloadImages('img/insta-icon02.png')">
+<header>
+  <h1><a href="index.html">Eline</a></h1>
+	
+<div class="nav-button">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+	
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="works.html">WORKS</a></li>
+      <!-- <li><a href="profile.html">PROFILE</a></li>
+      <li><a href="https://www.instagram.com/erinakawashima/"><img src="img/insta-icon.png" alt="instagram" id="insta" onMouseOver="MM_swapImage('insta','','img/insta-icon02.png',1)" onMouseOut="MM_swapImgRestore()"/></a></li> -->
+    </ul>
+  </nav>
+	
+</header>
+	
+    
+<p class="main-img">
+  <picture>
+    <source srcset="w-img/r-works-main.jpg" media="(max-width: 800px)">
+    <img src="w-img/works-main.jpg" alt="">
+  </picture>
+</p>
+	
+	
+<main>
+  <section class="banner" id="banner">
+    <h2><img src="w-img/h2-banner.png" alt=""/></h2>
+	  
+    <div class="banner-box">
+		
+      <div class="b-box">
+		  
+        <p class="b-img"><img src="w-img/shampoo.jpg" alt=""/></p>
+		  
+        <div class="b-text">
+          <span><p><img src="w-img/b-color01.png" alt=""/></p></span>
+          <h3>WCB Shampoo<br class="sp-only"><a href="https://www.webcreatorbox.com/blog/banner-design-10">（バナー練習10本ノック</a>より）</h3>
+	    <dl>
+		  <dt>Concept</dt>
+			<dd>人気メーカーから新たに発売されたシャンプー。思わず手に取りたくなるかわいいデザインがポイント。Happy Hair, Happy You! かわいさ、手軽さ、楽しさ。全部このシャンプーで。</dd>
+          <dt>Point</dt>
+			<dd>可愛らしさと爽やかさのある背景画像を組み合わせ、ボトルの可愛らしさを際立たせる躍動感のあるデザインにしました。</dd>
+		</dl>
+		</div>
+      </div>
+		
+      <div class="b-box">
+        <p class="b-img"><img src="w-img/macha.jpg" alt=""/></p>
+		  
+        <div class="b-text">
+          <span><p><img src="w-img/b-color02.png" alt=""/></p></span>
+          <h3>茶寮上符<br class="sp-only"><a href="https://www.webcreatorbox.com/blog/banner-design-10">（バナー練習10本ノック</a>より）</h3>
+          <dl>
+            <dt>Concept</dt>
+            <dd>昔ながらの和菓子が人気の老舗から、若者層の呼び込みのために新たに開発されたアイス抹茶ラテ。本格的な抹茶を気軽に楽しんでもらいたい。 老舗茶寮が贈る 抹茶ラテ 600 円</dd>
+            <dt>Point</dt>
+            <dd>ゴールドや落ち着いたグリーンを使用し、老舗のこだわりのある抹茶の高級感を表現しました。</dd>
+          </dl>
+        </div>
+      </div>
+		
+      <div class="b-box">
+        <p class="b-img"><img src="w-img/father.jpg" alt=""/></p>
+        <div class="b-text">
+          <span><p><img src="w-img/b-color03.png" alt=""/></p></span>
+          <h3>架空バナー作成「父の日フェア」</h3>
+          <dl>
+            <dt>Concept</dt>
+            <dd>父の日の贈り物、購入する娘さんや主婦がターゲット。毎年6月第3日曜日は父の日 感謝を込めてプレゼントを送ろう。ラッピング無料を記載</dd>
+            <dt>Point</dt>
+            <dd>落ち着いた色味で一目で父の日のプレゼントだと分かり、メッセージカードを載せることで実際にプレゼントを渡すことを想像できようなデザインにしました。 </dd>
+          </dl>
+        </div>
+      </div>
+		
+    </div>
+  </section>
+  
+  <section class="webiste" id="website">
+      
+    <h2><img src="w-img/h2-website.png" alt=""/></h2>
+	  
+    <div class="web-flex">
+		
+      <div class="web-box">
+        <p class="w-img"><img src="w-img/CozyChat.jpg" alt=""/></p>
+      </div>
+		
+      <div class="web-text">
+        <span><p><img src="w-img/w-color01.png" alt=""/></p></span>
+        <h3>架空サイトのデザインカンプ<br>
+        Coffee Shop「Cozy chat」</h3>
+          
+        <p>職業訓練課題デザインカンプ<br>
+		   職業訓練に入校1か月目頃に初めてPhotoShopで作成したデザインカンプです。<br>
+		   ※こちらはデザインカンプのみでWebサイトは作成しておりません<br></p>
+		  
+       <dl>
+		<dt>Concept</dt>
+        <dd>"くつろいだ時間を あなたとわたしで<br>
+        やさしい時間を過ごせる空間「Cozy chat」"<br>
+		記載内容は全て指示通り。バナーもオリジナルで作成。</dd>
+		<dt>Target</dt>
+        <dd>20代後半～40代女性を意識した雰囲気で、落ちついた感じのあたたかなイメージ。<br>カフェでのんびり自分時間を過ごすのが趣味の方。</dd>
+        <dt>Point</dt>
+        <dd>
+        キャッチコピーの「くつろいだ時間」や「やさしい時間」をWebサイトからも感じられるように意識して作成しました。<br>
+        コンセプトやイメージを大切にし、ナチュラルで落ち着いた色味で、全体の背景画像はコーヒー豆の袋を表現。<br>
+        全てフリー素材の画像を使用していますが、明るさやトーンがバラバラだったため、統一感が出るように色味やトーンをPhotoShopで加工しています。
+        </dd>
+
+        <dt>使用ツール</dt>
+		<dd>Photoshop</dd>
+        <dt>制作期間</dt>
+		<dd>デザイン2日</dd>
+       </dl>
+      </div>
+    </div>
+      
+      
+    <div class="web-flex">
+		
+      <div class="web-box">
+        <p class="w-img"><img src="w-img/portfolio.jpg" alt=""/></p>
+      </div>
+      <div class="web-text">
+        <span>
+        <p><img src="w-img/w-color02.png" alt=""/></p></span>
+        <h3>Portfolioサイト</h3>
+        <dl>
+		<dt>Concept</dt>
+		<dd>転職活動での書類通過や採用担当者の方に自身の作品やスキルを見てもらい、「会いたい」「一緒に働きたい」と思っていただけるようなPortfolioサイトを目指して作成しました。<br>
+        </dd>
+            
+        <dt>Target</dt>
+        <dd>主に企業の採用担当者様や、Web制作を依頼したいと考えている方を想定しています。<br>様々な企業様に見ていただくことを想定して、ターゲットを絞り込みすぎず、見やすさと爽やかな印象を大切にして作成いたしました。</dd>
+        <dt>Point</dt>
+        <dd>採用担当者様が短時間で必要な情報を把握できるように、「分かりやすさ」と「導線」を特に意識しました。具体的には、最初に制作実績が目に入る構成にし、どのようなスキルがあるのかがすぐ伝わるようにしています。また、情報量が多くなりすぎないようにシンプルなデザインにすることで、内容がしっかり伝わることを重視しました。<br>インディゴやライトブルーをベースにTopページや枠組みは爽やかで落ち着いた配色に。
+		<br>
+		Profileページは、様々な仕事や表現活動をしてきた自分の個性も表現できるように、カラフルな写真を使用し芸歴も掲載しました。</dd>
+		  <dt>使用ツール</dt>
+		  <dd>Figma、Photoshop、Dreamweaver</dd>
+          <dt>制作期間</dt>
+		  <dd>デザイン2日 / コーディング3週間</dd>
+       </dl>
+		  
+      </div>
+    </div>
+    
+<a href="index.html#top" class="readmore-btn">View Site</a>
+
+    <div class="web-flex">
+		
+      <div class="web-box">
+        <p class="w-img"><img src="w-img/sample.jpg" alt=""/></p>
+      </div>
+      <div class="web-text">
+        <span>
+        <p><img src="w-img/w-color03.png" alt=""/></p></span>
+        <h3>架空コーポレートサイト「株式会社Sample」</h3>
+        <p>職業訓練グループ課題サイトリニューアル</p>
+        <dl>
+          <dt>Concept</dt>
+          <dd>職業訓練入校3カ月目に、実際にあるIT企業様のコーポレートサイトを作成しました。<br>
+              ポートフォリオに掲載するにあたり企業名や内容などは変更し、株式会社Sampleとして、TOPページのみを掲載しています。</dd>
+		  <dt>Target</dt>
+		  <dd>求人応募者やパートナー企業様がメインターゲットとして閲覧することを想定。</dd>
+          <dt>Point</dt>
+          <dd>商用利用可能なイラストを使用したサイト作成の指定があり、TOP画像もイラストを組み合わせて作成しました。<br>
+          サイトに統一感が出るように、イラストの色から使用カラーを選択し、IT企業としての信頼感を感じるブルーと、親しみやすさを感じるイエローをメインに、人材を大切にする姿勢を表現したオレンジとグリーンをアクセントカラーとして使用しました。<br>
+          IT未経験の求職者の方でも申し込みに踏み込めるように、企業としての信頼感と安心感、親しみやすさが伝わり、分かりやすいサイトを目指し作成しました。</dd>
+        </dl>
+        <dl>
+          <dt>使用ツール</dt>
+          <dd>Figma、Photoshop、Dreamweaver<br>
+			  フリーイラスト素材集「<a href="https://soco-st.com/tag/company">ソコスト</a>」使用</dd>
+          <dt>制作期間</dt>
+          <dd>デザイン1日 / コーディング1週間</dd>
+        </dl>
+      </div>
+    </div>
+    
+<a href="sample/top.html" class="readmore-btn">View Site</a>
+	  
+	  
+    <!--<div class="web-flex">
+		
+      <div class="web-box">
+        <p class="w-img"><img src="w-img/pickles.jpg" alt=""/></p>
+      </div>
+      <div class="web-text">
+        <span>
+        <p><img src="w-img/w-color03.png" alt=""/></p></span>
+        <h3>架空Webサイト「Pickles」</h3>
+        <p>職業訓練課題ピックルスWebサイト</p>
+        <dl>
+          <dt>Concept</dt>
+          <dd>メインタイトル「西洋風漬物ピックルス」<br>
+              サブタイトル「オリジナルピクルス推進委員会」<br>
+              記載内容は全て指示通り。</dd>
+          <dt>Point</dt>
+          <dd>職業訓練の課題としてWebサイトを作成しました。<br>
+              ピクルスを幅広い世代の方に受け入れていただくために、温かな色味を採用し、彩り鮮やかな写真を使いました。<br>
+            <br>
+              ロゴはお子様にも受け入れやすいように、可愛らしくて丸みのあるデザインに。<br>
+              こちらのロゴはPhotoshopのみで作成しました。<br><br>
+</dd>
+          <img src="pickles/img/rogo01.png" alt=""/>
+        </dl>
+        <p>&nbsp;</p>
+        <p>※こちらのサイトはレスポンシブ非対応です。</p>
+        <dl>
+          <p>&nbsp;</p>
+          <dt>使用ツール</dt>
+          <dd>Photoshop、Dreamweaver</dd>
+          <dt>制作期間</dt>
+          <dd>デザイン1日 / コーディング2日</dd>
+        </dl>
+      </div>
+    </div>
+    
+<a href="pickles/index.html" class="readmore-btn">View Site</a> -->
+      
+      
+      <div class="web-flex">
+		
+      <div class="web-box">
+        <p class="w-img"><img src="w-img/leberment.jpg" alt=""/></p>
+      </div>
+      <div class="web-text">
+        <span>
+        <p><img src="w-img/w-color04.png" alt=""/></p></span>
+        <h3>Select Shop Leberment</h3>
+        <p>前職で勤めていた服飾雑貨やアパレルを扱うセレクトショップの内容を使わせていただき、Webサイトを作成しました。<br>
+        ※オーナー様から使用、掲載許可済み。サンプル品として写真は実店舗と異なるものも使用しています。</p>
+        <dl>
+          <dt>Concept</dt>
+          <dd>『Leberment (リベルマン) 』遊び心を持って自由気ままに楽しくいこう！<br>
+            人はそれぞれ価値観が違い何が良くて何が嫌いなのかは千差万別。<br>
+            Lebermentは自分達が良いと思ったモノを集めるお店。</dd>
+         <dt>Target</dt>
+         <dd>20-30代 女性、トラッド、カジュアル、古着テイストが好きな方。<br>
+             雑誌は、FUDGEやCLUEL、GISELeなどを好み、おしゃれは好きだが、できるだけ低価格のもので、人と被らない個性的なものを求めている方に設定しました。</dd>
+          <dt>Point</dt>
+          <dd>クライアントの要望は、お店の紹介をメインとしており、パッと見てどんなお店なのか雰囲気が分かり、来店してもらうことを１番大切にしたい。<br>元のサイトがリンクやページ数が多く、情報が分かりにくい、元のページに戻りにくいという課題があったので、1ページで全ての情報が分かるように変更しました。<br>オーナー様のこだわりやお店のコンセプトを大切にし、オシャレな中にどこか一癖ある個性的で可愛い商品を引き立たせるように、シンプルな色味をサイトに採用。<br>店内カラーに使われているナチュラルで海外風なテイストをサイトにも使用し、店内ディスプレイに使用している英字新聞や洋書などの要素をデザインに取り入れることで、お店の雰囲気に近づけました。<br>
+          Web Storeは、人気商品とアイキャッチになるような色味の商品を載せることで、より興味を持ってもらえるようにし、WebStoreへのボタンも目立つ配色にしました。</dd>
+          <dt>使用ツール</dt>
+            <dd>Figma、Photoshop、Dreamweaver</dd>
+          <dt>制作期間</dt>
+			<dd>デザイン 2日 / コーディング2週間</dd>
+        </dl>
+      </div>
+    </div>
+    
+<a href="leberment/index.html" class="readmore-btn">View Site</a>
+      
+      
+        
+  </section>
+  
+  <section class="graphic" id="graphic">
+    <h2><img src="w-img/h2-graphic.png" alt=""/></h2>
+	  
+      <!-- <p class="graphic-img"><img src="img/graphic.jpg" alt=""/></p>
+      
+      <div class="graphic-text">
+        <p><img src="img/g-color01.png" alt=""/></p>
+        <h3>パンフレット　○○ HEALTHY LIFESTYLE</h3>
+        <p>友人が経営しているヨガスタジオ、リラクゼーションサロン、カフェを併設した健康美容複合施設のパンフレットをお試しで作成中です。(掲載許可済み)</p>
+        <p>&nbsp;</p>
+        <p>【Concept】</p>
+        <p>○○とはLinkとNaturalを組み合わせた造語。
+          ヨガで体を動かして心身を整え、<br>
+        サロンで疲れた体をほぐして心身を癒し、カフェで内側からもキレイに。</p>
+        <p>&nbsp;</p>
+        <p>【Point】</p>
+        <p>コンセプトや店内カラーに合わせたナチュラルでヘルシーな色味。<br>
+          シンプルでスタイリッシュな見やすいデザインを大切にしながら、人の繋がりや暖かさを感じるパンフレットにしました。</p>
+    </div>  -->
+		  
+	<p class="graphic-img"><img src="w-img/meishi.jpg" alt=""/></p>
+      
+	  
+      <div class="graphic-text">
+        <!-- <p><img src="img/g-color01.png" alt=""/></p> -->
+        <h3>名刺サンプル</h3>
+	    <p>エアメール風の名刺を作成しました。</p>
+		 <dl>
+		  <dt>Concept</dt>
+			<dd>Webデザインやグラフィックデザイン、動画編集などもできるデザイナーの名刺。<br>
+				何ができるのか分かりやすく、印象に残るデザインのもの。</dd>
+		  <dt>Point</dt>
+			<dd>エアメール風のデザインにすることで、多くの人と繋がり想いを届け、お手紙を渡すような形で印象に残る名刺にしました。ロゴをスタンプ風に、Web、Graphic、Video editingの表記を切手風のデザインにしました。</dd>
+		  <dt>使用ツール</dt>
+			<dd>Illustrator、Photoshop</dd>
+          <dt>制作期間</dt>
+			<dd>デザイン 2日</dd>
+		</dl>
+	</div>
+	   
+  </section>
+    
+    
+    <h2><img src="w-img/h2-others.png" alt=""/></h2>
+	
+	    
+	<p class="graphic-img"><img src="w-img/linestamp01.jpg" alt=""/></p>
+      <div class="graphic-text">
+        <h3>LINE Stamp</h3>
+        <p>LINEスタンプを作成しました。</p>
+	<dl>
+	 <dt>Concept</dt>
+        <dd>"ネガティブピーマンとやさしい野菜たち"</dd>
+     <dt>Point</dt>
+        <dd>カラフルなイラストでスタンプを作りたいと思い、野菜をモチーフにしました。
+		<br>子供に嫌われがちなピーマンをメインに、どこかほっとする可愛らしい野菜を目指しました。</dd>
+	 <dt>使用ツール</dt>
+		<dd>Illustrator</dd>
+     <dt>制作期間</dt>
+		<dd>デザイン 2日</dd>
+	</dl>
+	　</div>
+	
+	
+	    
+	<p class="graphic-img"><img src="w-img/futuretech-logo.jpg" alt=""/></p>
+  <div class="graphic-text">
+        <h3>Logo提案書</h3>
+	  <p>架空企業のLogoを作成しました。</p>
+	  
+        <dl>
+		 <dt>Concept</dt>
+			<dd>「未来の技術で明るい未来を創造する」を理念とする架空のIT企業、株式会社FutureTechのロゴデザイン</dd>
+			<dt>Point</dt>
+          <dd>青み系のロゴが多いIT業界の中で、他社との差別化を図るためカラフルな色を採用し、未来(Future)のテクノロジー(Tech)の多様な可能性とFutureTech様の創造する明るい未来をイメージして作成いたしました。<br>
+			  形は、世の中やお客様のニーズの変化に合わせて変化、変容していく柔軟性を動きを感じる半円で表現し、イノベーションと成長をし続ける姿を表現するために、半円を重ねた形に。<br>
+			  また、文字は変更せずに縦型、横型に対応できるデザインにしました。<br>
+			  サイズの指示やモノクロバージョンなども記載しております。</dd>
+		 <dt>使用ツール</dt>
+	      <dd>Illustrator</dd>
+		 <dt>制作期間</dt>
+		  <dd>デザイン 1日</dd>
+	    </dl>
+	  
+	　</div>
+  
+	
+	
+  <!--<p class="video-img">
+	<video controls="controls" muted="muted" >
+	  <source src="w-img/miyakojima.mp4" type="video/mp4">
+  </video>
+  </p>
+	<div class="graphic-text">
+      <h3>ショート動画</h3>
+      <p>SNS用のショート動画を作成しました</p>
+		
+       <dl>
+		<dt>【Concept】</dt>
+           <dd>宮古島旅行の際にiPhoneで撮影した動画を使った、宮古島の美しい海や風景を集めた40秒のショート動画。</dd>
+        <dt>【Point】</dt>
+           <dd>シンプルなショート動画ですが、動画の切り替え時に違和感のないようなエフェクトや、文字のフェードイン、フェードアウトのタイミングに拘って作成しました。</dd>
+		<dt>使用ツール</dt>
+		   <dd>PremierePro</dd>
+        <dt>制作期間</dt>
+		   <dd>動画編集 1日</dd>
+	   </dl>
+  　</div> -->
+	
+    
+	<!-- 追加？
+    <h3>SNS Promotion</h3>
+    <h3>Brand Collaboration</h3>
+    <h3>Handmade</h3>
+    <p>&nbsp;</p>
+  　　-->
+	
+	
+	
+  <p class="gotop"><a href="#top"><img src="img/gotop.png" alt="TOP"/></a></p>
+	
+</main>
+	
+<footer>
+  
+<p><picture>
+    <source srcset="img/r-footer.jpg" media="(max-width: 800px)">
+    <img src="img/footer.jpg" alt="Thank you for waching @ErinaKawashima">
+		
+  </picture>
+	</p>
+	
+</footer>
+	
+</body>
+</html>
